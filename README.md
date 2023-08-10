@@ -41,7 +41,7 @@ This work is licensed under an MIT License.<br/>
 
 ### Sources
 
-Some information is taken from the [MITRE-Webseite](https://attack.mitre.org/).
+Some information is taken from the [MITRE-Website](https://attack.mitre.org/).
 
 
 ### Python Libraries needed:
