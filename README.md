@@ -4,36 +4,50 @@
 
 ### Beschreibung
 
-Beschreibung des Repositorys in Deutsch.<br/>
-Untenstehenden Abschnitt nicht ändern!
+Dieses Repository enthält einige Skripte, die verwendet werden können, um mehrere oder alle Einträge in der Cortex XSOAR Anwendung zu aktualisieren.
+Jedes der Skripte startet mit einer kurzen Beschreibung was es tut und der Option, die aktuelle Ausführung abzubrechen.
+In der [config.json](/config.json) werden die zu aktualisierenden Einträge aufgelistet und die Einstellungen für die API der Anwendung festgehalten.<br/>
+Die Skripte können mit wenig Aufwand angepasst oder erweitert werden.
 
 Diese Arbeit unterliegt den Bestimmungen einer MIT-Lizenz.<br/>
 © 2023 Sandra Liedtke.
 
-### Konfigurationen
 
-*Konfigurationen hier beschreiben*<br/>
-Einzelne Settings mit `Codeblock` kenntlich machen
+### Quellen
 
-### System-Anforderungen
+Es werden teilweise Informationen von der [MITRE-Webseite](https://attack.mitre.org/) verwendet.
 
-Wird vor allem für größere Projekte gebraucht.
+
+### Benötigte Python-Bibliotheken
+
+ - json
+ - ssl
+ - BeautifulSoup
+ - demisto_client
+ - requests
 
 ## English Version
 
 ### Description
 
-Beschreibung des Repositorys in Englisch.<br/>
-Untenstehenden Abschnitt nicht ändern!
+This repository contains some scripts which can be used to batch-update several or all records in the Cortex XSOAR application.
+Each of the scripts starts with a short description of what it is doing and an option to stop the current execution.
+In the [config.json](/config.json) the entries to be updated are listed and the settings to access the API of the Cortex Application are defined.<br/>
+The scripts may be adjusted or extended with very little effort.
 
 This work is licensed under an MIT License.<br/>
 © 2023 Sandra Liedtke.
 
-### Configurations
 
-*Konfigurationen hier beschreiben*<br/>
-Einzelne Settings mit `Codeblock` kenntlich machen
+### Sources
 
-### System Requirements
+Some information is taken from the [MITRE-Webseite](https://attack.mitre.org/).
 
-Wird vor allem für größere Projekte gebraucht.
+
+### Python Libraries needed:
+
+ - json
+ - ssl
+ - BeautifulSoup
+ - demisto_client
+ - requests

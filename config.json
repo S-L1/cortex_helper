@@ -1,0 +1,13 @@
+{
+    "entries": [
+        "Conti",
+        "Killnet",
+        "Clop",
+        "Emotet",
+        "Mirai"
+    ],
+    "CortexXSOARAPIConfig": {
+        "host": "",
+        "api_key": ""
+    }
+}
