@@ -20,6 +20,7 @@ print('''
 ########################################################################################################################
 ''')
 cont = input("Want to continue (Yes/No)? ")
+print('\n')
 
 
 if cont.upper() in ["Y", "YES"]:
@@ -30,7 +31,7 @@ if cont.upper() in ["Y", "YES"]:
     # api instance
     api_instance = demisto_client.configure(base_url=CONFIG['CortexXSOARAPIConfig']['host'], debug=False, verify_ssl=ssl.CERT_NONE, api_key=CONFIG['CortexXSOARAPIConfig']['api_key'])
 
-    # for each archivedData entry
+    # for each entry
     for indicator_name in CONFIG['entries']:
         try:
             print("Checking " + indicator_name + " in Cortex XSOAR")
