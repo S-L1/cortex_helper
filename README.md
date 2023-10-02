@@ -16,6 +16,7 @@ Diese Arbeit unterliegt den Bestimmungen einer MIT-Lizenz.<br/>
 ### Quellen
 
 Es werden teilweise Informationen von der [MITRE-Webseite](https://attack.mitre.org/) verwendet.
+Teilweise werden Informationen von [ransomware.live](https://ransomware.live/#/) über die [API](https://api.ransomware.live/groups) abgerufen.
 
 
 ### Benötigte Python-Bibliotheken
@@ -42,6 +43,7 @@ This work is licensed under an MIT License.<br/>
 ### Sources
 
 Some information is taken from the [MITRE-Website](https://attack.mitre.org/).
+Some information is also called from [ransomware.live](https://ransomware.live/#/) via [API request](https://api.ransomware.live/groups).
 
 
 ### Python Libraries needed:
