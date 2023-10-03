@@ -19,7 +19,7 @@ print('\n')
 
 if cont.upper() in ["Y", "YES"]:
     # get config
-    with open('config.json', 'r') as config_file:
+    with open('../config/config.json', 'r') as config_file:
         CONFIG = json.load(config_file)
 
     # api instance
