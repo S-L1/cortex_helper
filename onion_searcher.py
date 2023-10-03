@@ -73,7 +73,8 @@ if cont.upper() in ["Y", "YES"]:
                             onions = ''
                             # all onion links for the respective group
                             for entry in row['locations']:
-                                onions += entry['fqdn'] + '\n'
+                                status = "active" if entry['available'] == True else "inactive"
+                                onions += entry['fqdn'] + ",\t" + status + "\n"
 
                             ioc_object.custom_fields['note'] = onions
                             # the actual API-Request
