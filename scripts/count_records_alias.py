@@ -25,10 +25,6 @@ if cont.upper() in ["Y", "YES"]:
     # api instance
     api_instance = demisto_client.configure(base_url=CONFIG['CortexXSOARAPIConfig']['host'], debug=False, verify_ssl=ssl.CERT_NONE, api_key=CONFIG['CortexXSOARAPIConfig']['api_key'])
 
-    # call mitre webpage
-    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
-    headers = {'User-Agent': user_agent}
-
     # variables for the statistics
     result = ""
     i_conf = 0
