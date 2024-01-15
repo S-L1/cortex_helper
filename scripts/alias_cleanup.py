@@ -34,10 +34,6 @@ if cont.upper() in ["Y", "YES"]:
                                             verify_ssl=ssl.CERT_NONE,
                                             api_key=CONFIG['archiving']['CortexXSOARAPIConfig']['api_key'])
 
-    # call mitre webpage
-    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
-    headers = {'User-Agent': user_agent}
-
     # for each archivedData entry
     for indicator_name in CONFIG['archiving']['archivedData']:
         # match the name in the second column
