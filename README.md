@@ -10,7 +10,7 @@ In der [config.json](/config/config.json) werden die zu aktualisierenden Einträ
 Die Skripte können mit wenig Aufwand angepasst oder erweitert werden.
 
 Diese Arbeit unterliegt den Bestimmungen einer MIT-Lizenz.<br/>
-© 2023-2025 Sandra Liedtke.
+© 2023-2025 S. Liedtke.
 
 
 ### Quellen
@@ -40,7 +40,7 @@ In the [config.json](/config/config.json) the entries to be updated are listed a
 The scripts may be adjusted or extended with very little effort.
 
 This work is licensed under an MIT License.<br/>
-© 2023-2025 Sandra Liedtke.
+© 2023-2025 S. Liedtke.
 
 
 ### Sources
